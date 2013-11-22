@@ -6,3 +6,7 @@ If you need use this library in your composer, you can add following code into y
         ...
         "yapro/beauty-tips": "dev-master"
     },
+
+And run command:
+
+    $ composer update yapro/beauty-tips --prefer-source
