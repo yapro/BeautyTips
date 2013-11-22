@@ -1,3 +1,8 @@
+== 0.9.8 ==
+
+* Add support canvas drop shadows for brawsers opera > 11 and msie > 8
+* Add support version control using composer.json
+
 == 0.9.5 ==
 
 * Removed old janky/broken animation stuff

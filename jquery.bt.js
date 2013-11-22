@@ -6,7 +6,7 @@
  * @version 0.9.5 release candidate 1  (5/20/2009)
  */
  
-jQuery.bt = {version: '0.9.7'};
+jQuery.bt = {version: '0.9.8'};
  
 /*
  * @type jQuery
@@ -113,7 +113,7 @@ jQuery.bt = {version: '0.9.7'};
             $(this).prop('bt-xTitle', $(this).prop('title')).prop('title', '');
           }
         });
-      }    
+      }
       
       if (typeof opts.trigger == 'string') {
         opts.trigger = [opts.trigger];
@@ -842,7 +842,12 @@ jQuery.bt = {version: '0.9.7'};
       
       // to test for drop shadow support in the current browser, uncomment the next line
       // return true;
-    
+      if ($.browser.opera && $.browser.version > 11){
+        return true;
+      }
+      else if ($.browser.msie && $.browser.version > 8){
+        return true;
+      }
       // until a good feature-detect is found, we have to look at user agents
       try {
         var userAgent = navigator.userAgent.toLowerCase();      

@@ -1,0 +1,19 @@
+{
+    "name": "yapro/BeautyTips",
+    "version": "0.9.8",
+    "description": "jQuery JavaScript Library BeautyTips",
+    "type": "component",
+    "homepage": "http://yapro.ru",
+    "license": "Dual licensed under the MIT and GPL",
+    "support": {
+        "forum": "http://yapro.ru/forum/",
+        "wiki": "http://dillon-sellars.github.io/BeautyTips/",
+        "source": "https://github.com/yapro/BeautyTips"
+    },
+    "authors": [
+        {
+            "name": "Jeff Robbins",
+            "email": "support@lullabot.com"
+        }
+    ]
+}
