@@ -1,6 +1,13 @@
+
+== 0.9.8.1 ==
+
+* Add check for the existence of $.browser. Let me remind you $.browser was removed in jQuery 1.9. Now if you need the plugin beautiful cast shadows, I recommended using the detect browser with any next libraries:
+JavaScript : http://cssuseragent.org/ - https://bitbucket.org/mckamey/cssuseragent/overview
+PHP : http://chrisschuld.com/ - https://github.com/cbschuld/Browser.php
+
 == 0.9.8 ==
 
-* Add support canvas drop shadows for brawsers opera > 11 and msie > 8
+* Add support canvas drop shadows for browsers opera > 11 and msie > 8
 * Add support version control using composer.json
 
 == 0.9.5 ==

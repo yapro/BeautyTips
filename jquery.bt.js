@@ -842,10 +842,10 @@ jQuery.bt = {version: '0.9.8'};
       
       // to test for drop shadow support in the current browser, uncomment the next line
       // return true;
-      if ($.browser.opera && $.browser.version > 11){
+      if ($.browser && $.browser.opera && $.browser.version > 11){
         return true;
       }
-      else if ($.browser.msie && $.browser.version > 8){
+      else if ($.browser && $.browser.msie && $.browser.version > 8){
         return true;
       }
       // until a good feature-detect is found, we have to look at user agents
